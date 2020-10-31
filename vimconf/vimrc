@@ -1,0 +1,39 @@
+set laststatus=2
+filetype plugin on
+
+if !has('gui_running')
+  set t_Co=256
+endif
+
+call plug#begin()
+
+Plug 'https://github.com/itchyny/lightline.vim'
+Plug 'https://github.com/tpope/vim-surround'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdcommenter'
+
+
+call plug#end()
+let g:lightline = {
+      \ 'colorscheme': 'ayu_dark',
+      \ }
+
+
+set number
+set showmatch		
+syntax enable
+packadd! dracula
+syntax enable
+colorscheme dracula
+nnoremap <A-1> 1gt
+nnoremap <A-2> 2gt
+nnoremap <A-3> 3gt
+nnoremap <A-4> 4gt
+nnoremap <A-5> 5gt
+nnoremap <A-6> 6gt
+nnoremap <A-7> 7gt
+nnoremap <A-8> 8gt
+nnoremap <A-9> 9gt
+nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
+set backspace=indent,eol,start

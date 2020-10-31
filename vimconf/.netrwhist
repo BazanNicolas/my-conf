@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/nicolas/Desktop/2do/2°/sistemas operativos/Lab3/so20lab3g04/xv6-public'
+let g:netrw_dirhist_4='/home/nicolas/.vim'
+let g:netrw_dirhist_3='/etc/vim/autoload'
+let g:netrw_dirhist_2='/etc/vim'
+let g:netrw_dirhist_1='/home/nicolas/Desktop/2do/2°/sistemas operativos/Lab3/so20lab3g04/xv6-public'

@@ -1,0 +1,31 @@
+! Dracula Xresources palette
+*.foreground: #FF6666
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+!Cursor
+URxvt.perl-ext-common: ibeamcursor
+
+!Scrollbar
+URxvt.scrollBar: false
+
+!Cursor color
+URxvt*cursorColor:  #A52C59
+
+URxvt*font:                       xft:MesloLGS NF-11
+URxvt*letterSpace:                -1
