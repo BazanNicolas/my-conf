@@ -1,3 +1,5 @@
+# https://github.com/Eitol/screen_focus_changer
+# sudo apt install xdotool x11-xserver-utils
 import sys
 from enum import Enum
 from locale import atoi
